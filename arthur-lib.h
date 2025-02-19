@@ -19,7 +19,6 @@ template<typename It>
 void tri_a_bulle(It first, It last) {
     bool swapped = false;
     It current = first;
-    while()
         while (current != prev(last)) {
             if (*current > *next(current)) {
                 swap(*current, *next(current));
